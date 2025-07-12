@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const inputField = document.getElementById('input-temp');
 const fromUnitField = document.getElementById('input-unit');
 const toUnitField = document.getElementById('output-unit');
@@ -40,7 +39,7 @@ form.addEventListener('input', () => {
 
   const outputTemp = convertTemp(inputTemp, fromUnit, toUnit);
   outputField.value = (Math.round(outputTemp * 100) / 100) + ' ' + toUnit.toUpperCase();
-=======
+  
 const inputField = document.getElementById('input-temp');
 const fromUnitField = document.getElementById('input-unit');
 const toUnitField = document.getElementById('output-unit');
